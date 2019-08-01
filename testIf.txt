@@ -1,0 +1,12 @@
+function main a : integer returns integer;
+	a : integer is 3;
+	b : integer is 2;	
+	c : integer is
+		if a > b then
+			1;
+		else
+			2;
+		endif;
+begin
+	c;
+end;

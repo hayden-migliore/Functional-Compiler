@@ -1,0 +1,16 @@
+function main a : integer returns integer;
+	a : integer is 3;
+	b : integer is 2;	
+	c : integer is
+		if a > 4 then
+			a rem 4;
+		else
+			a ** 2;
+		endif;
+begin
+	case a is
+		when 1 => c;
+		when 2 => (a + b / 2 - 4) * 3;
+		others => 4;
+	endcase;
+end;

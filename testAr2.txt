@@ -1,0 +1,5 @@
+function main a : integer returns integer;
+	a : integer is 3;
+begin
+	a - 2;
+end;

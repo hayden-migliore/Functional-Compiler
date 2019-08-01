@@ -1,0 +1,5 @@
+function main a : integer returns integer;
+	a : integer is 7;
+begin
+	a rem 2;
+end;
